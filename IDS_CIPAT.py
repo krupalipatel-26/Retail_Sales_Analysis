@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 # =====================================================
 # LOAD DATASET
 # =====================================================
-df = pd.read_excel(r"C:\Users\krupa\Downloads\retail_sales_100_rows (1).xlsx")
+df = pd.read_excel("retail_sales_100_rows (1).xlsx")
 
 print("\n--- DATASET PREVIEW ---")
 print(df.head())
